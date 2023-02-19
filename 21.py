@@ -88,8 +88,6 @@ class Matrix:
                 result_matrix.append(row)
             return Matrix(result_matrix)
 
-    def __rmul__(self, matr2):
-        return self.__mul__(matr2)
 
     # Транспонування матриць
     def transpose(self):
